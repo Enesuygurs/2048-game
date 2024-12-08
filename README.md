@@ -1,6 +1,17 @@
 # 2048 Game
 
 A fully responsive and animated implementation of the classic 2048 puzzle game.
+# UI and Day/Night Mode
+![_C__Users_Jiko_Documents_GitHub_2048-game_index html](https://github.com/user-attachments/assets/b11c93c3-134f-4989-9945-2c3c76918c23)
+![_C__Users_Jiko_Documents_GitHub_2048-game_index html (1)](https://github.com/user-attachments/assets/285a642d-94f7-48e3-856f-18abbc7c3daf)
+![_C__Users_Jiko_Documents_GitHub_2048-game_index html (2)](https://github.com/user-attachments/assets/6c1b4008-28c7-476d-9226-1346ef183059)
+# Win Screen
+![image](https://github.com/user-attachments/assets/d6ed1e20-63e8-4b04-98a0-00ee6871e076)
+# Mobile
+![_C__Users_Jiko_Documents_GitHub_2048-game_index html (3)](https://github.com/user-attachments/assets/1716c686-1110-4746-aaba-651d9b0bdd15)
+
+
+
 
 ## Features
 
