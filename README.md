@@ -1,6 +1,8 @@
 # 2048 Game
 
 A fully responsive and animated implementation of the classic 2048 puzzle game.
+Try: https://enesuygurs.github.io/2048-game/
+
 # UI and Day/Night Mode
 ![_C__Users_Jiko_Documents_GitHub_2048-game_index html](https://github.com/user-attachments/assets/b11c93c3-134f-4989-9945-2c3c76918c23)
 ![_C__Users_Jiko_Documents_GitHub_2048-game_index html (1)](https://github.com/user-attachments/assets/285a642d-94f7-48e3-856f-18abbc7c3daf)
