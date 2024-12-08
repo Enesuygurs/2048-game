@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>2048</h1>
+            <button id="theme-toggle">☀️</button>
+        </div>
+        <div class="score-container">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="best-score">Best: <span id="best-score">0</span></div>
+            <div class="moves">Moves: <span id="moves">0</span></div>
+            <div class="time">Time: <span id="time">00:00</span></div>
+        </div>
+        <div class="buttons-container">
+            <button id="restart-button">Restart</button>
+            <button id="undo-button" disabled>Undo</button>
+        </div>
+        <div class="settings-container">
+            <div class="grid-size-selector">
+                <label for="grid-size">Grid Size:</label>
+                <select id="grid-size">
+                    <option value="4">4x4</option>
+                    <option value="5">5x5</option>
+                    <option value="6">6x6</option>
+                </select>
+            </div>
+        </div>
+        <div class="game-container">
+            <div class="grid"></div>
+            <div class="game-over" id="game-over">
+                <div class="game-over-content">
+                    <h2>Game Over!</h2>
+                    <p>Score: <span id="final-score">0</span></p>
+                    <button id="restart-btn">Try Again</button>
+                </div>
+            </div>
+            <div class="game-win" id="game-win">
+                <div class="game-win-content">
+                    <h2>Congratulations!</h2>
+                    <p>You've reached 2048!</p>
+                    <p>Score: <span id="win-score">0</span></p>
+                    <p class="continue-text">Keep playing to reach a higher score!</p>
+                    <div class="win-buttons">
+                        <button id="continue-btn">Continue</button>
+                        <button id="win-restart-btn">New Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="achievements-container">
+            <div id="achievement-popup" class="achievement-popup hidden">
+                <span id="achievement-text"></span>
+            </div>
+        </div>
+        <div class="instructions">
+            <p>Use arrow keys, swipe, or control buttons to move tiles!</p>
+        </div>
+        <div class="controls">
+            <button class="control-btn" id="up-btn">↑</button>
+            <div class="horizontal-controls">
+                <button class="control-btn" id="left-btn">←</button>
+                <button class="control-btn" id="right-btn">→</button>
+            </div>
+            <button class="control-btn" id="down-btn">↓</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
